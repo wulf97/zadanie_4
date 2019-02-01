@@ -15,8 +15,6 @@ public:
     bool isLoad(void);
     int size(void);
     QObject *get(int);
-    QObject *getPlugin1(void);
-    QObject *getPlugin2(void);
 
 private:
     QVector<QObject*> *m_plugins;
